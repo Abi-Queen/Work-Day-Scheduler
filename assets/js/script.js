@@ -1,10 +1,11 @@
-// get current date
-// display date in jumbotron
+// display current date in jumbotron
+var currentDate = document.querySelector("#current-date");
+var currentTime = moment();
 
-// set up bootstrap grid layout
+currentDate.textContent = currentTime.format("dddd, MMMM Do YYYY");
 
-// add hour labels in left column
 
-// add event listeners to grid boxes
-
-// dynamically generate html content in grid boxes
+// dynamically generate html "description" inputs
+// get discription DOM element
+// add click event listener to element
+// add text content to html 
