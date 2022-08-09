@@ -18,65 +18,64 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css"
-    />
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+  <!-- navigation -->
     <header class="jumbotron display-flex justify-content-around text-center mt-auto d-lg-block">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="current-date" class="lead"></p>
     </header>
+
+  <!-- schedule blocks -->
     <div class="container text-center">
       <div class="row d-flex justify-content-center time-block" id="9">
-        <div class="col hour">9 AM</div>
-        <div class="col-8 desc form-inline" id="9"><p></p></div>
-        <div class="col saveBtn iconic iconic-lock-locked" id="saveBtn-9"></div>
+        <div class="col-md-1 hour">9 AM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
-        <div class="row d-flex justify-content-center time-block" id="10">
-          <div class="col hour">10 AM</div>
-          <div class="col-8 desc form-inline" id="10"><p></p></div>
-          <div class="col saveBtn" id="saveBtn-10"></div>
-        </div>
+      <div class="row d-flex justify-content-center time-block" id="10">
+        <div class="col hour col-md-1">10 AM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
       <div class="row d-flex justify-content-center time-block" id="11">
-        <div class="col hour">11 AM</div>
-        <div class="col-8 desc form-inline" id="11"><p></p></div>
-        <div class="col saveBtn" id="saveBtn-11"></div>
+        <div class="col-md-1 hour">11 AM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
       <div class="row d-flex justify-content-center time-block" id="12">
-        <div class="col hour">12 PM</div>
-        <div class="col-8 desc form-inline" id="12"><p></p></div>
-        <div class="col saveBtn" id="saveBtn-12"></div>
+        <div class="col hour col-md-1">12 AM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
-      <div class="row d-flex justify-content-center time-block" id="1">
-        <div class="col hour">1 PM</div>
-        <div class="col-8 desc form-inline" id="13"><p></p></div>
-        <div class="col saveBtn" id="saveBtn-1"></div>
+      <div class="row d-flex justify-content-center time-block" id="13">
+        <div class="col hour col-md-1">1 PM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
-      <div class="row d-flex justify-content-center time-block" id="2">
-        <div class="col hour">2 PM</div>
-        <div class="col-8 desc form-inline" id="14"><p></p></div>
-        <div class="col saveBtn" id="saveBtn-2"></div>
+      <div class="row d-flex justify-content-center time-block" id="14">
+        <div class="col hour col-md-1">2 PM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
-      <div class="row d-flex justify-content-center time-block" id="3">
-        <div class="col hour">3 PM</div>
-        <div class="col-8 desc form-inline" id="15"><p></p></div>
-        <div class="col saveBtn" id="saveBtn-3"></div>
+      <div class="row d-flex justify-content-center time-block" id="15">
+        <div class="col hour col-md-1">3 PM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
-      <div class="row d-flex justify-content-center time-block" id="4">
-        <div class="col hour">4 PM</div>
-        <div class="col-8 desc form-inline" id="16"><p></p></div>
-        <div class="col saveBtn" id="saveBtn-4"></div>
+      <div class="row d-flex justify-content-center time-block" id="16">
+        <div class="col hour col-md-1">4 PM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
-      <div class="row d-flex justify-content-center time-block" id="5">
-        <div class="col hour">5 PM</div>
-        <div class="col-8 desc form-inline" id="17"><p></p></div>
-        <div class="col saveBtn" id="saveBtn-5"></div>
+      <div class="row d-flex justify-content-center time-block" id="17">
+        <div class="col hour col-md-1">5 PM</div>
+        <textarea class="col-md-10 desc form-inline"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
     </div>
 
